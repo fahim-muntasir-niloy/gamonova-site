@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    background-image: url("pics/rebirth_web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home{
+text-align: center;
+color: white;
+padding: 20% 5% ;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0%;
+}
+.home-p{
+    padding: 2% 20%;
+}
+
+#motto{
+    background-color: #151515;
+    padding: 10% 5%;
+    color: white;
+    text-align: center;
+}
+
+
+.team{
+    text-align: center;
+    color: #151515;
+    margin: 5% 5%;
+}
+/* meet the team */
+.members{
+    padding: 0 5% 5%;
+}
+.member-img{
+    display: block;
+    height: 200px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.image{
+    position: relative;
+    width: 200px;
+}
+.text{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.job{
+    font-style: italic;
+    font-size: .1rem;
+    padding: 0 10%;
+}
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 1;
+    transition: all .5s ease-in;
+}
+
+/* footer */
+.footer{
+    background-color: #151515;
+    color: white;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.fas{
+    padding: 3%;
+}
+.fab{
+    padding: 3%;
+}
